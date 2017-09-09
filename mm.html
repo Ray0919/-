@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+	<link href="css/bootstrap (2).css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
+</head>
+<body>
+<h1 style="font:italic bold 30px Georgia,serif;">支出查詢</h1>
+
+<div class="radio">
+  <label><input type="radio" name="method" value="curMonth">本月份</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="method" value="time">指定期間</label>
+</div>
+<input type="date" name="" id="fromTime"> - <input type="date" name="" id="toTime"><br>
+<button class="btn btn-primary little" id="lookup">查詢</button>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>日期</th>
+      <th>項目</th>
+      <th>類別</th>
+      <th>金額</th>
+    </tr>
+  </thead>
+  <tbody id="accountingTable">
+   
+  </tbody>
+</table>
+<script type="text/javascript" src="js/lookup.js"></script>
+</body>
+</html>

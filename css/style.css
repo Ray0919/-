@@ -1,0 +1,26 @@
+
+
+.btn{
+	width: 50%;
+	height: 150px;
+	margin: 10px;
+	font-size: 30px;
+}
+.form-control{
+	width: 90%;
+	margin: auto;
+	color: blue
+}
+body{
+	text-align: center;
+	color: blue
+}
+}
+h1{
+	font-family: myFont;
+}
+
+}
+th{
+	text-align: center;
+}
